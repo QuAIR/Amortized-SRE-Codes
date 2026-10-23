@@ -1,0 +1,12 @@
+{
+  "reproducibility/results/Rz_figure_source.csv": "43e0d00165f2f782b5ea5d4f7cb4b2dfdf71d49c37d80084878a7aa0f140ef15",
+  "reproducibility/results/heisenberg.csv": "a17178104843026998289a4d1a8eb119745e4426a6ac9c7c1e427a6ad18506ca",
+  "reproducibility/results/heisenberg_disorder.json": "dc7fde29bd64efd90dd6b3cc01cadacbdac8d27ed40219701e9fcc5f2bef6b3c",
+  "reproducibility/results/heisenberg_P2_W1.npy": "c42b1357743bcef852fa881abd99be07f58ef0e329f0bfedf17a6786b44ef5e8",
+  "reproducibility/results/heisenberg_P2_W3.npy": "415a8d842d975220ab047140b3a76534ef6c6d01d69e9a3878c0232a55372666",
+  "reproducibility/results/heisenberg_integer_bounds.npz": "d45ad7396a79496044bce1d2a709515538a8ec7413f78ac2eba518a10bb3be45",
+  "Figs/Rz_revised.pdf": "97639b8ad9433e0ea65a97ec1d5452dbe8dcdd432984691d6ad3e3cb4bb77996",
+  "Figs/Rz_revised.png": "0b472672e971651f68aadd7bc293256fc075eed115511134df259f38595a92d1",
+  "Figs/heisenberg_revised.pdf": "c9d93c6415c94ef579c0406249e6761f21c17a16d002f3ea7d5cffd01047c2d6",
+  "Figs/heisenberg_revised.png": "b76cd5b274136a094d96d079cab79afe3b15d8e20783129bb93b97e12bdd2691"
+}

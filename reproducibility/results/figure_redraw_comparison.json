@@ -1,0 +1,12 @@
+{
+  "Rz_revised.png": {
+    "same_dimensions": true,
+    "pixels_identical": true,
+    "maximum_channel_difference": 0.0
+  },
+  "heisenberg_revised.png": {
+    "same_dimensions": true,
+    "pixels_identical": true,
+    "maximum_channel_difference": 0.0
+  }
+}

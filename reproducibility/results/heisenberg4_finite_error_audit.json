@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-21",
+  "same_target_moments_used_for_both_bounds": true,
+  "current_manuscript_role": "Brief sensitivity statement and released arrays; no finite-error main-figure panel.",
+  "separate_approximate_implementation_channel_simulated": false,
+  "epsilon_is_prescribed_tolerance_not_observed_error": true,
+  "epsilon": 0.0001,
+  "moment_correction": 0.0016,
+  "all_120000_stored_integer_values_reproduced_from_formula": true,
+  "paired_bound_entries": 40000,
+  "entries_reduced_by_one": 3574,
+  "entries_unchanged": 36426,
+  "fraction_unchanged": 0.91065,
+  "by_W": [
+    {
+      "W": 0.5,
+      "entries": 10000,
+      "entries_reduced_by_one": 820,
+      "unchanged_fraction": 0.918,
+      "largest_mean_reduction": 0.16,
+      "mean_zero_error_at_t500": 10.86,
+      "mean_prescribed_error_at_t500": 10.79
+    },
+    {
+      "W": 1.0,
+      "entries": 10000,
+      "entries_reduced_by_one": 895,
+      "unchanged_fraction": 0.9105,
+      "largest_mean_reduction": 0.16,
+      "mean_zero_error_at_t500": 11.125,
+      "mean_prescribed_error_at_t500": 11.01
+    },
+    {
+      "W": 2.0,
+      "entries": 10000,
+      "entries_reduced_by_one": 975,
+      "unchanged_fraction": 0.9025,
+      "largest_mean_reduction": 0.165,
+      "mean_zero_error_at_t500": 11.105,
+      "mean_prescribed_error_at_t500": 11.01
+    },
+    {
+      "W": 3.0,
+      "entries": 10000,
+      "entries_reduced_by_one": 884,
+      "unchanged_fraction": 0.9116,
+      "largest_mean_reduction": 0.145,
+      "mean_zero_error_at_t500": 10.635,
+      "mean_prescribed_error_at_t500": 10.52
+    }
+  ],
+  "interpretation": "The sensitivity statement compares theorem-based lower bounds at a prescribed tolerance; it is not a simulation of implementation errors or a cost reduction.",
+  "derived_quantity": "The optional CSV contains means of paired differences b_0(p)-b_epsilon(p); no separate mean-reduction plot is used in the manuscript.",
+  "paired_statistical_rows_checked": 200,
+  "paired_standard_errors_verified": true,
+  "derived_statistics_csv": "heisenberg4_bound_reduction.csv",
+  "numerical_scope": "The stored target moments have a complete independent binary64 cross-check; no pointwise interval certification is asserted.",
+  "sha256": {
+    "heisenberg4_moments.npz": "83ecc0af8b4585cb4cf4849169d3a18338b33275963ca714d7c67184ef4eb088",
+    "heisenberg4_integer_bounds.npz": "3dfb251a905f4e3b7fe3f80ddb3ab8f9a67d3d36b31a7342f7af36657419a1e9",
+    "heisenberg4.csv": "15d780befcdfc3e671d0d77369b38a168ef90b717f8e892db43bb353cfc94086",
+    "heisenberg4_bound_reduction.csv": "6200dd685ac21baf247edf25ac002426807dc39a32b92d8cdd19267c1bbc53a9"
+  }
+}

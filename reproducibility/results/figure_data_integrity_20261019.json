@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1"
+  },
+  "figure_1": {
+    "points": 401,
+    "source_csv": "Rz_figure_source.csv",
+    "maximum_dense_phase_search_gap": 1.2000343968532334e-07,
+    "extent_primal_dual_agree": true,
+    "qualification": "Analytic curves; the solid blue curve is an achievable equatorial-input lower bound, not a globally optimized amortized capacity."
+  },
+  "figure_2": {
+    "evolutions_checked": 24400,
+    "field_vectors": 400,
+    "max_absolute_moment_difference": 5.10702591327572e-15,
+    "max_unitarity_residual": 8.881784197001252e-15,
+    "all_73200_integer_entries_reproduced": true,
+    "all_366_mean_and_standard_error_rows_match": true,
+    "raw_data_sha256": {
+      "heisenberg_disorder.json": "dc7fde29bd64efd90dd6b3cc01cadacbdac8d27ed40219701e9fcc5f2bef6b3c",
+      "heisenberg_integer_bounds.npz": "d45ad7396a79496044bce1d2a709515538a8ec7413f78ac2eba518a10bb3be45",
+      "heisenberg_P2_W1.npy": "c42b1357743bcef852fa881abd99be07f58ef0e329f0bfedf17a6786b44ef5e8",
+      "heisenberg_P2_W3.npy": "415a8d842d975220ab047140b3a76534ef6c6d01d69e9a3878c0232a55372666",
+      "heisenberg.csv": "a17178104843026998289a4d1a8eb119745e4426a6ac9c7c1e427a6ad18506ca"
+    },
+    "qualification": "Numerical simulation of the stated three-site model; not experimental measurements or a general scaling result. Cross-checked in binary64, not interval-certified pointwise."
+  },
+  "no_resampling_or_raw_data_replacement": true
+}

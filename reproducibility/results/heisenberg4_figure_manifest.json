@@ -1,0 +1,11 @@
+{
+  "reproducibility/results/heisenberg4_fields.npz": "4811a1961f933b56cdd36fe118c13a4203462e926f7dfd0caff75e105bb96a3f",
+  "reproducibility/results/heisenberg4_moments.npz": "83ecc0af8b4585cb4cf4849169d3a18338b33275963ca714d7c67184ef4eb088",
+  "reproducibility/results/heisenberg4_integer_bounds.npz": "3dfb251a905f4e3b7fe3f80ddb3ab8f9a67d3d36b31a7342f7af36657419a1e9",
+  "reproducibility/results/heisenberg4.csv": "15d780befcdfc3e671d0d77369b38a168ef90b717f8e892db43bb353cfc94086",
+  "reproducibility/results/heisenberg4_model.json": "d5c8e2b9610a6b4bfa52833568e525a9d003ba6c693a5a834e5f776a4b01321d",
+  "reproducibility/results/heisenberg4_bound_reduction.csv": "6200dd685ac21baf247edf25ac002426807dc39a32b92d8cdd19267c1bbc53a9",
+  "Figs/heisenberg_N4_periodic.pdf": "14857d8d6def45940e1f9469d427b4b2c3e85c12acf11f8fe80c0c22c87fd984",
+  "Figs/heisenberg_N4_periodic.png": "13c244eefb585b1f980c5caa122ada8adc1b27b84f4366a12ac70faa207650ee",
+  "Figs/t-count_lower_bounds_0919.png": "061f57307e4f0b9281d269a48cb1b2b30dae100627e1c18eba59eed9a754d952"
+}

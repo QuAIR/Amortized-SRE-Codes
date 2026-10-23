@@ -1,0 +1,94 @@
+{
+  "W0.5": {
+    "eps0": {
+      "mean_at_first_time": 2.0,
+      "mean_at_final_time": 10.86,
+      "minimum_mean_t_ge_10": 8.55,
+      "minimum_sample_bound_t_ge_10": 3,
+      "first_sampled_time_mean_above_7": 0.3376169843250776
+    },
+    "eps1e-06": {
+      "mean_at_first_time": 2.0,
+      "mean_at_final_time": 10.86,
+      "minimum_mean_t_ge_10": 8.55,
+      "minimum_sample_bound_t_ge_10": 3,
+      "first_sampled_time_mean_above_7": 0.3376169843250776
+    },
+    "eps0.0001": {
+      "mean_at_first_time": 2.0,
+      "mean_at_final_time": 10.79,
+      "minimum_mean_t_ge_10": 8.485,
+      "minimum_sample_bound_t_ge_10": 3,
+      "first_sampled_time_mean_above_7": 0.3376169843250776
+    }
+  },
+  "W1": {
+    "eps0": {
+      "mean_at_first_time": 2.0,
+      "mean_at_final_time": 11.125,
+      "minimum_mean_t_ge_10": 9.895,
+      "minimum_sample_bound_t_ge_10": 3,
+      "first_sampled_time_mean_above_7": 0.28374949846322023
+    },
+    "eps1e-06": {
+      "mean_at_first_time": 2.0,
+      "mean_at_final_time": 11.12,
+      "minimum_mean_t_ge_10": 9.89,
+      "minimum_sample_bound_t_ge_10": 3,
+      "first_sampled_time_mean_above_7": 0.28374949846322023
+    },
+    "eps0.0001": {
+      "mean_at_first_time": 2.0,
+      "mean_at_final_time": 11.01,
+      "minimum_mean_t_ge_10": 9.8,
+      "minimum_sample_bound_t_ge_10": 3,
+      "first_sampled_time_mean_above_7": 0.28374949846322023
+    }
+  },
+  "W2": {
+    "eps0": {
+      "mean_at_first_time": 2.245,
+      "mean_at_final_time": 11.105,
+      "minimum_mean_t_ge_10": 10.645,
+      "minimum_sample_bound_t_ge_10": 4,
+      "first_sampled_time_mean_above_7": 0.23847668102089795
+    },
+    "eps1e-06": {
+      "mean_at_first_time": 2.245,
+      "mean_at_final_time": 11.105,
+      "minimum_mean_t_ge_10": 10.64,
+      "minimum_sample_bound_t_ge_10": 4,
+      "first_sampled_time_mean_above_7": 0.23847668102089795
+    },
+    "eps0.0001": {
+      "mean_at_first_time": 2.24,
+      "mean_at_final_time": 11.01,
+      "minimum_mean_t_ge_10": 10.53,
+      "minimum_sample_bound_t_ge_10": 4,
+      "first_sampled_time_mean_above_7": 0.23847668102089795
+    }
+  },
+  "W3": {
+    "eps0": {
+      "mean_at_first_time": 2.9,
+      "mean_at_final_time": 10.635,
+      "minimum_mean_t_ge_10": 10.375,
+      "minimum_sample_bound_t_ge_10": 5,
+      "first_sampled_time_mean_above_7": 0.23847668102089795
+    },
+    "eps1e-06": {
+      "mean_at_first_time": 2.9,
+      "mean_at_final_time": 10.635,
+      "minimum_mean_t_ge_10": 10.375,
+      "minimum_sample_bound_t_ge_10": 5,
+      "first_sampled_time_mean_above_7": 0.23847668102089795
+    },
+    "eps0.0001": {
+      "mean_at_first_time": 2.885,
+      "mean_at_final_time": 10.52,
+      "minimum_mean_t_ge_10": 10.305,
+      "minimum_sample_bound_t_ge_10": 5,
+      "first_sampled_time_mean_above_7": 0.23847668102089795
+    }
+  }
+}

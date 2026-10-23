@@ -1,0 +1,135 @@
+{
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "matplotlib": "3.11.2"
+  },
+  "seed": 20261018,
+  "checks": {
+    "walsh_vs_direct_max_error": 2.220446049250313e-16,
+    "T_purity": 0.75,
+    "CCZ_purity": 0.34375,
+    "random_ratio_minima_320_each": {
+      "T": 0.7830630956225417,
+      "CCZ": 0.7559414917910855
+    },
+    "random_purity_lipschitz_max": 0.9495738853665947,
+    "CCZ_exact_adjoint_blocks": {
+      "singletons": 8,
+      "four_dimensional": 14,
+      "orthogonal": true
+    },
+    "four_copy_exact_PSD": true
+  },
+  "qft": [
+    {
+      "n": 2,
+      "P2": 0.4375,
+      "M2": 1.1926450779423958,
+      "P3": 0.296875,
+      "zero_error_witness": 3,
+      "adaptive_1e_6": 3,
+      "unitary_1e_3": 3,
+      "old_one_based_P2": 0.4375,
+      "old_one_based_witness": 3,
+      "adaptive_epsilon_threshold": 0.0078125
+    },
+    {
+      "n": 3,
+      "P2": 0.22656249999999958,
+      "M2": 2.1420190048724304,
+      "P3": 0.10351562499999972,
+      "zero_error_witness": 6,
+      "adaptive_1e_6": 6,
+      "unitary_1e_3": 6,
+      "old_one_based_P2": 0.22656249999999967,
+      "old_one_based_witness": 6,
+      "adaptive_epsilon_threshold": 0.000671386718750026
+    },
+    {
+      "n": 4,
+      "P2": 0.13250280600557263,
+      "M2": 2.915905183004283,
+      "P3": 0.04186268801449694,
+      "zero_error_witness": 8,
+      "adaptive_1e_6": 8,
+      "unitary_1e_3": 7,
+      "old_one_based_P2": 0.13250280600557293,
+      "old_one_based_witness": 8,
+      "adaptive_epsilon_threshold": 6.131754457358585e-05
+    },
+    {
+      "n": 5,
+      "P2": 0.08115089887833615,
+      "M2": 3.623249114716379,
+      "P3": 0.018429073291573173,
+      "zero_error_witness": 9,
+      "adaptive_1e_6": 9,
+      "unitary_1e_3": 9,
+      "old_one_based_P2": 0.08115089887833654,
+      "old_one_based_witness": 9,
+      "adaptive_epsilon_threshold": 0.0011851260100453967
+    },
+    {
+      "n": 6,
+      "P2": 0.05047770705816198,
+      "M2": 4.3082098121593075,
+      "P3": 0.008460898303695872,
+      "zero_error_witness": 11,
+      "adaptive_1e_6": 11,
+      "unitary_1e_3": 11,
+      "old_one_based_P2": 0.050477707058162215,
+      "old_one_based_witness": 11,
+      "adaptive_epsilon_threshold": 0.00036473797820691734
+    }
+  ],
+  "controlled_gates": [
+    {
+      "gate": "CCRz(pi/2)",
+      "P2": 0.5898437499999996,
+      "P3": 0.44042968749999956,
+      "M2": 0.7615952606749222,
+      "zero_error_witness": 2,
+      "adaptive_1e_6": 2,
+      "adaptive_epsilon_threshold": 0.010009765625000028
+    },
+    {
+      "gate": "CCRz(pi)",
+      "P2": 0.34374999999999967,
+      "P3": 0.17968749999999978,
+      "M2": 1.5405683813627042,
+      "zero_error_witness": 4,
+      "adaptive_1e_6": 4,
+      "adaptive_epsilon_threshold": 0.004882812500000021
+    },
+    {
+      "gate": "CSWAP(1/2)",
+      "P2": 0.42578124999999956,
+      "P3": 0.28222656249999956,
+      "M2": 1.2318156752230751,
+      "zero_error_witness": 3,
+      "adaptive_1e_6": 3,
+      "adaptive_epsilon_threshold": 0.008544921875000028
+    },
+    {
+      "gate": "CSWAP(3/4)",
+      "P2": 0.3099727749231639,
+      "P3": 0.1720100174940855,
+      "M2": 1.689786586510979,
+      "zero_error_witness": 5,
+      "adaptive_1e_6": 5,
+      "adaptive_epsilon_threshold": 0.0004020921923022572
+    },
+    {
+      "gate": "Fredkin",
+      "P2": 0.34374999999999967,
+      "P3": 0.17968749999999978,
+      "M2": 1.5405683813627042,
+      "zero_error_witness": 4,
+      "adaptive_1e_6": 4,
+      "adaptive_epsilon_threshold": 0.004882812500000021
+    }
+  ]
+}
