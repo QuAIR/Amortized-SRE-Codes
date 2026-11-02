@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Released source data and figure hashes describe exact bytes across platforms.
+reproducibility/results/** -text whitespace=cr-at-eol
+Rz_magic_generation/*.mat -text
+Figs/** -text

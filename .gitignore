@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.tmp/
+.coverage
+coverage.xml
+test-results/
+matlab_crash_dump*
+*.asv

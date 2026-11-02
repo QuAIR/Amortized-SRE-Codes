@@ -1,0 +1,19 @@
+{
+  "rz": {
+    "points": 401,
+    "source_csv": "rz_curves.csv",
+    "maximum_dense_phase_search_gap": 1.2000343968532334e-07,
+    "extent_primal_dual_agree": true,
+    "curve": "Attainable equatorial-input lower bound"
+  },
+  "heisenberg3": {
+    "evolutions_checked": 24400,
+    "field_vectors": 400,
+    "max_absolute_moment_difference": 5.10702591327572e-15,
+    "max_unitarity_residual": 8.881784197001252e-15,
+    "all_73200_integer_entries_reproduced": true,
+    "all_366_mean_and_standard_error_rows_match": true,
+    "raw_arrays_unchanged": true,
+    "arithmetic": "binary64"
+  }
+}

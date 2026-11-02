@@ -1,0 +1,14 @@
+{
+  "epsilon": 0.0001,
+  "moment_correction": 0.0016,
+  "integer_entries_checked": 120000,
+  "paired_entries": 40000,
+  "decreased_by_one": 3574,
+  "unchanged": 36426,
+  "decreased_by_one_by_W": {
+    "0.5": 820,
+    "1": 895,
+    "2": 975,
+    "3": 884
+  }
+}

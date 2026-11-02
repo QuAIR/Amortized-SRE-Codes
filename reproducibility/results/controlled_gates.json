@@ -1,0 +1,47 @@
+[
+  {
+    "gate": "CCRz(pi/2)",
+    "P2": 0.5898437499999996,
+    "P3": 0.44042968749999956,
+    "M2": 0.7615952606749222,
+    "zero_error_witness": 2,
+    "adaptive_1e_6": 2,
+    "adaptive_epsilon_threshold": 0.010009765625000028
+  },
+  {
+    "gate": "CCRz(pi)",
+    "P2": 0.34374999999999967,
+    "P3": 0.17968749999999978,
+    "M2": 1.5405683813627042,
+    "zero_error_witness": 4,
+    "adaptive_1e_6": 4,
+    "adaptive_epsilon_threshold": 0.004882812500000021
+  },
+  {
+    "gate": "CSWAP(1/2)",
+    "P2": 0.42578124999999956,
+    "P3": 0.28222656249999956,
+    "M2": 1.2318156752230751,
+    "zero_error_witness": 3,
+    "adaptive_1e_6": 3,
+    "adaptive_epsilon_threshold": 0.008544921875000028
+  },
+  {
+    "gate": "CSWAP(3/4)",
+    "P2": 0.3099727749231639,
+    "P3": 0.1720100174940855,
+    "M2": 1.689786586510979,
+    "zero_error_witness": 5,
+    "adaptive_1e_6": 5,
+    "adaptive_epsilon_threshold": 0.0004020921923022572
+  },
+  {
+    "gate": "Fredkin",
+    "P2": 0.34374999999999967,
+    "P3": 0.17968749999999978,
+    "M2": 1.5405683813627042,
+    "zero_error_witness": 4,
+    "adaptive_1e_6": 4,
+    "adaptive_epsilon_threshold": 0.004882812500000021
+  }
+]

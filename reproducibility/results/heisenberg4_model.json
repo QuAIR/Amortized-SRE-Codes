@@ -1,0 +1,34 @@
+{
+  "N": 4,
+  "boundary": "periodic",
+  "Delta": 0.2,
+  "exchange_coefficient": 1.0,
+  "fields": "independent uniform [-W,W] at each of four sites",
+  "W_values": [
+    0.5,
+    1.0,
+    2.0,
+    3.0
+  ],
+  "samples_per_W": 200,
+  "seed": 20261021,
+  "rng": "NumPy default_rng / PCG64; successive W draws",
+  "epsilon_values": [
+    0.0,
+    1e-06,
+    0.0001
+  ],
+  "error": "half-diamond; adaptive correction 16 epsilon",
+  "witness": "ceil(-log2(min(1,P2+16epsilon))/log2(4/3)) before averaging",
+  "integer_guard": "subtract 1e-11 from the real-valued cost witness before ceiling",
+  "nullity_benchmark": "[H,Z tensor 4]=0 implies s(U)>=2 and nu(U)<=7",
+  "maximum_unitarity_residual": 5.995204332975845e-15,
+  "maximum_parity_commutator_residual": 1.1926001586482916e-13,
+  "time_grid": {
+    "spacing": "geometric",
+    "start": 0.1,
+    "stop": 500.0,
+    "count": 50
+  },
+  "arithmetic": "binary64"
+}

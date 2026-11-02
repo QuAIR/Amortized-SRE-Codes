@@ -1,0 +1,26 @@
+{
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "matplotlib": "3.11.2"
+  },
+  "seed": 20261018,
+  "checks": {
+    "walsh_vs_direct_max_error": 2.220446049250313e-16,
+    "T_purity": 0.75,
+    "CCZ_purity": 0.34375,
+    "random_ratio_minima_320_each": {
+      "T": 0.7830630956225417,
+      "CCZ": 0.7559414917910855
+    },
+    "random_purity_lipschitz_max": 0.9495738853665947,
+    "CCZ_exact_adjoint_blocks": {
+      "singletons": 8,
+      "four_dimensional": 14,
+      "orthogonal": true
+    },
+    "four_copy_exact_PSD": true
+  }
+}

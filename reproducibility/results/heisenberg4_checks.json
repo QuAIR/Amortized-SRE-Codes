@@ -1,0 +1,13 @@
+{
+  "evolutions_checked": 40000,
+  "integer_entries_checked": 120000,
+  "statistical_rows_checked": 600,
+  "all_integer_entries_match": true,
+  "raw_arrays_unchanged": true,
+  "maximum_P2_difference": 2.3428481377152366e-13,
+  "maximum_unitarity_residual": 1.7812418207086012e-12,
+  "maximum_PTM_imaginary_residual": 2.220446049250313e-16,
+  "minimum_real_witness_distance_to_integer": 2.015094011653673e-07,
+  "nullity_ceiling": 7,
+  "arithmetic": "binary64"
+}

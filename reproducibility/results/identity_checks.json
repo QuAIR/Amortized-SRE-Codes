@@ -1,0 +1,47 @@
+{
+  "continuity": {
+    "gradient_min_eigenvalue": 0.05916641412111165,
+    "max_polynomial_lipschitz_ratio": 0.8565089431424368,
+    "max_taylor_remainder_over_infidelity": 5.346375451710933,
+    "max_tested_ensemble_roof_excess_over_distance": 3.792555939253863,
+    "near_pure_ensembles_checked": 630,
+    "maximally_mixed_qubit_polynomial": 0.5,
+    "maximally_mixed_qubit_roof": 1,
+    "note": "Ensemble checks do not optimize the roof; the Taylor proof covers every decomposition."
+  },
+  "ccz": {
+    "blocks": 14,
+    "fourier_identity_checks": 56,
+    "orthogonal": true,
+    "exact_output_P2": "11/32",
+    "output_pauli_spectrum": {
+      "0": 35,
+      "1": 1,
+      "-1/2": 6,
+      "1/2": 22
+    },
+    "operator_difference_exact": "2D-Q_plus=Q_minus >= 0"
+  },
+  "arbitrary_reference_diagnostics": [
+    {
+      "reference_qubits": 0,
+      "min_ratio": 0.6873197229173306,
+      "min_diagonal_fraction": 0.2884850482265778
+    },
+    {
+      "reference_qubits": 1,
+      "min_ratio": 0.8309965948860821,
+      "min_diagonal_fraction": 0.30565212626348337
+    },
+    {
+      "reference_qubits": 2,
+      "min_ratio": 0.8492750230465136,
+      "min_diagonal_fraction": 0.31196606563338924
+    },
+    {
+      "reference_qubits": 3,
+      "min_ratio": 0.9115416269737876,
+      "min_diagonal_fraction": 0.3274823429294207
+    }
+  ]
+}
